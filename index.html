@@ -9,19 +9,127 @@
 
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/acordeon.css">
+    <link rel="stylesheet" href="src/css/languages.css">
+    <link rel="stylesheet" href="src/css/projects.css">
+    <link rel="stylesheet" href="src/css/experiences.css">
+    <link rel="stylesheet" href="src/css/skills.css">
+    
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img class="photo" src="src/image/alynerezende.jpeg" alt="Alyne's photo">
             <h1 class="title">Hi, <br> I'm Alyne Rezende</h1>
             <div class="information">
                 <p class="job">Junior Developer</p>
                 <p class="location">Aveiro - PT</p>
-                <p class="phone">+351 937 345 550</p>
-                <p class="email">a.alynerezende@gmail.com</p>
+                <p class="phone">
+                    <a href="tel:+351 937 345 550">+351 937 345 550</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:a.alynerezende@gmail.com">a.alynerezende@gmail.com</a>
+                </p>
             </div>
         </header>
-    </div>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Professional Skills</h3>
+                        <ul>
+                            <li>
+                                <img src="src/image/icons/css3.png" alt="CSS3" title="CSS3">
+                            </li>
+                            <li>
+                                <img src="src/image/icons/html5.png" alt="HTML5" title="HTML5">
+                            </li>
+                            <li>
+                                <img src="src/image/icons/js.png" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="src/image/icons/github.png" alt="GitHub" title="GitHub">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Personal Skills</h3>
+                        <ul>
+                            <li>Organização</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Comprometimento com resultados</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Languages</h2>
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Portuguese</li>
+                    <li>English</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Projects</h2>
+            </button>
+            <div class="content">
+                <ul class="projects">
+                    <li>
+                        <h3 class="github">Nome do projeto</h3>
+                        <a href="#" target="_blank">link do projeto</a>
+                    </li>
+                    <li>
+                        <h3 class="github">Nome do projeto</h3>
+                        <a href="#" target="_blank">link do projeto</a>
+                    </li>
+                    <li>
+                        <h3 class="github">Nome do projeto</h3>
+                        <a href="#" target="_blank">link do projeto</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiences</h2>
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3>Lugar de experiência</h3>
+                        <span class="period">data</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate dicta quos neque deserunt doloremque sapiente. Sapiente eligendi nesciunt eius laboriosam autem beatae minima quod culpa debitis. Facilis, dignissimos ipsum.</p>
+                    </li>
+                    <li>
+                        <h3>Lugar de experiência</h3>
+                        <span class="period">data</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate dicta quos neque deserunt doloremque sapiente. Sapiente eligendi nesciunt eius laboriosam autem beatae minima quod culpa debitis. Facilis, dignissimos ipsum.</p>
+                    </li>
+                    <li>
+                        <h3>Lugar de experiência</h3>
+                        <span class="period">data</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate dicta quos neque deserunt doloremque sapiente. Sapiente eligendi nesciunt eius laboriosam autem beatae minima quod culpa debitis. Facilis, dignissimos ipsum.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="src/js/acordeon.js" defer></script>
 </body>
 </html>

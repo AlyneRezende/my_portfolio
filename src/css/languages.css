@@ -1,0 +1,33 @@
+.languages {
+    display: block;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.languages li {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 1rem 1rem;
+    font-weight: 700;
+}
+
+.languages li::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+    background-image: url(../image/icons/check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .languages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
