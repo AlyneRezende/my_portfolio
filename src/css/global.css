@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: "Neua Machina";
+    src: url(../fonts/neue-machina-regular.woff2) format('woff2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    background: rgb(137,9,203);
+    background: linear-gradient(122deg, rgba(137,9,203,1) 5%, rgba(97,17,124,1) 15%, rgba(2,0,36,1) 40%, rgba(2,0,36,1) 60%, rgba(13,13,140,1) 85%, rgba(9,72,165,1) 95%);
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+}
