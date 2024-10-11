@@ -21,6 +21,8 @@
 }
 
 .projects a {
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     color: #ffffff;
     padding: .8rem 0;

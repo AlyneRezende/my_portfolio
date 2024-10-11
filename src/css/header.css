@@ -60,7 +60,7 @@
     background-image: url(../image/icons/email.svg);
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .header {
         display: grid;
@@ -82,5 +82,4 @@
     .header .information {
         grid-area: information;
     }
-
 }
