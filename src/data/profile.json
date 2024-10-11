@@ -65,7 +65,7 @@
             "name": "Piano Simulator",
             "description": "Unleash your creativity with a project developed using JavaScript, HTML, and CSS, where you can play a piano dynamically!",
             "url": "https://github.com/AlyneRezende/piano-project",
-            "github": true
+            "github": false
         }
     ]
 }
