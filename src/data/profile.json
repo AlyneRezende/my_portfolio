@@ -8,35 +8,28 @@
     "skills": {
         "hardSkills": [
             {
-                "name": "Nodejs",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+                "name": "JavaScript",
+                "logo": "https://raw.githubusercontent.com/AlyneRezende/my_portfolio/refs/heads/main/src/image/icons/js.png"
             },
             {
-                "name": "Java",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+                "name": "CSS3",
+                "logo": "https://raw.githubusercontent.com/AlyneRezende/my_portfolio/refs/heads/main/src/image/icons/css3.png"
             },
             {
-                "name": "Angular",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+                "name": "HTML5",
+                "logo": "https://raw.githubusercontent.com/AlyneRezende/my_portfolio/refs/heads/main/src/image/icons/html5.png"
             },
             {
-                "name": "React",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-            },
-            {
-                "name": "Mongodb",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-            },
-            {
-                "name": "Postgresql",
-                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+                "name": "GitHub",
+                "logo": "https://raw.githubusercontent.com/AlyneRezende/my_portfolio/refs/heads/main/src/image/icons/github.png"
             }
         ],
         "softSkills": [
             "Empathy",
             "Teamwork",
             "Flexibility",
-            "Organization"
+            "Organization",
+            "Continuous learning"
         ]
     },
     "languages": [
@@ -45,13 +38,33 @@
     ],
     "portfolio": [
         {
-            "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-            "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+            "name": "Pokemon",
+            "description": "Explore a page showcasing the first generation of Pokémon, powered by an API!",
+            "url": "https://github.com/AlyneRezende/pokemonAPI",
             "github": true
         },
         {
-            "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-            "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+            "name": "Wreck-It Ralph",
+            "description": "Join the fun with a game inspired by Wreck-It Ralph, crafted with JavaScript!",
+            "url": "https://github.com/AlyneRezende/projeto-detona-ralph",
+            "github": true
+        },
+        {
+            "name": "Memory Game",
+            "description": "Jump into the action with a game created using CSS and JavaScript!",
+            "url": "https://github.com/AlyneRezende/projeto-jogo-de-memoria",
+            "github": true
+        },
+        {
+            "name": "Yu-Gi-Oh Card Game",
+            "description": "Get ready to duel with a Yu-Gi-Oh! Card Game created using JavaScript and CSS!",
+            "url": "https://github.com/AlyneRezende/yu-gi-oh-card-game",
+            "github": true
+        },
+        {
+            "name": "Piano Simulator",
+            "description": "Unleash your creativity with a project developed using JavaScript, HTML, and CSS, where you can play a piano dynamically!",
+            "url": "https://github.com/AlyneRezende/piano-project",
             "github": true
         }
     ],
