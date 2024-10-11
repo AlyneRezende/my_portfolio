@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    position: relative;
 }
 
 .photo {
@@ -19,10 +19,10 @@
 }
 
 .information {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 
 .information p {

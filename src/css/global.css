@@ -16,8 +16,6 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     color: #ffffff;
     background: rgb(137,9,203);
     background: linear-gradient(122deg, rgba(137,9,203,1) 5%, rgba(97,17,124,1) 15%, rgba(2,0,36,1) 40%, rgba(2,0,36,1) 60%, rgba(13,13,140,1) 85%, rgba(9,72,165,1) 95%);
