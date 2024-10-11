@@ -36,7 +36,7 @@
         "Portuguese BR",
         "English (intermediate)"
     ],
-    "portfolio": [
+    "projects": [
         {
             "name": "Pokemon",
             "description": "Explore a page showcasing the first generation of Pokémon, powered by an API!",
