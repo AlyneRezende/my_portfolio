@@ -49,7 +49,7 @@ function updateProjects(profileData) {
         <li>
             <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
             <p>${project.description}</p>
-            <a href="${project.url}" target="_blank">${project.url}</a>
+            <a href="${project.url}" target="_blank">Take a look at my ${project.name} project!</a>
         </li>
         `
     }).join('')
