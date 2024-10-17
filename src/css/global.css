@@ -39,6 +39,7 @@ h3 {
     
     .main {
         max-width: 1024px;
+        min-height: max-content;
         margin: 1rem auto;
         height: 100vh;
     }

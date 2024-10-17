@@ -46,8 +46,6 @@
     font-size: 1.5rem;
 }
 
-
-
 .open .trigger::after {
     transform: rotate(0deg);
 }
@@ -61,4 +59,5 @@
     padding: 0 1rem 1rem 2rem;
     font-size: 1.2rem;
     font-weight: 200;
+    height: 100%;
 }
